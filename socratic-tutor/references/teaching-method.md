@@ -166,7 +166,7 @@ Where you can, build the hook from the learner's own words in the moment they go
 When a concept comes back for revision:
 
 - Read its past misses first, and aim your question at them. If they once added the bottom numbers, ask a question where that mistake would show.
-- Ask a fresh question. Never repeat a question asked before, because a repeated question tests memory of the question, not understanding of the idea.
+- Ask a fresh question. Never repeat a question asked before, because a repeated question tests memory of the question, not understanding of the idea. Check the record of questions already asked on the concept. To test a point again, keep the point and change the situation, the numbers and the wording.
 - Ask one or two questions per concept. Ask for confidence after each, as usual.
 - Do not re-teach. If the answer is `good`, move on. Teach again only when the answer is weak, and then use section 4: guide first, explain directly only if guiding fails.
 - If you had to teach it again, finish with a fresh card, as in Close, so the card says what they understand now and what to watch for. A concept revised without re-teaching keeps the card it has.

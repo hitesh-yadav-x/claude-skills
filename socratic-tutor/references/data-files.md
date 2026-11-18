@@ -13,6 +13,7 @@ Everything the tutor remembers lives in plain files. This page documents every f
       progress.json             one entry per concept
       misses.md                 one entry per miss
       cards.md                  one card per finished concept
+      questions.md              every scored question asked, with the answer and result
       sessions.md               dated notes per session, plus the resume note after a pause
       page.html                 the learner's page, built from the files above; safe to delete
 ```
@@ -143,6 +144,32 @@ Appended to, newest last. One entry per miss.
 
 Before revising a concept, read its entries and aim questions at them. Log an entry for every `partial` or `poor` answer and every right answer given as a `guess`, as it happens. The `log_miss` value that `schedule.py record` prints is only a cross-check (see When the commands are called).
 
+## questions.md
+
+Every scored question the tutor has asked, kept so that no question is asked twice, and so the learner has a record of what they were asked. It can later supply the points for a practice test.
+
+```markdown
+## 2026-11-13 · adding-fractions
+- Question: What is 1/2 + 1/3?
+  - Tested: Pieces must be the same size before they are added.
+  - Their answer: 2/5
+  - Result: poor, sure
+- Question: A recipe needs 1/4 cup of oil and 2/4 cup of milk. How much liquid is that?
+  - Tested: With same-size pieces, only the top numbers are added.
+  - Their answer: 3/4 cup
+  - Result: good, fairly-sure
+```
+
+| Part | Meaning |
+|---|---|
+| Heading | The date, then the concept id. One entry per concept per session. |
+| Question | The question as asked, in full. A question with options keeps them on the same line: `A) ... B) ... C) ... D) ...`. |
+| Tested | The one point the question tests, in a short sentence. This is what a later question on the same point is written from. |
+| Their answer | The learner's answer in one line. "Did not know" if they gave none. |
+| Result | `good`, `partial` or `poor` as judged for that answer, then the confidence they gave: `guess`, `fairly-sure` or `sure`. |
+
+An entry is written once per concept: after the card for a new concept, after `record` for a revision concept, and at a pause or stop for a concept left unfinished. Guess-step and guiding questions are not logged. A missed question appears here and in `misses.md`; the detail of what went wrong is only in `misses.md`. No script reads this file.
+
 ## cards.md
 
 One card per finished concept: a short record of what the learner worked out, to reread later.
@@ -203,7 +230,7 @@ Appended to, newest last.
 
 | File | Written by |
 |---|---|
-| `profile.json`, `path.json`, `misses.md`, `cards.md`, `sessions.md` | Claude, directly. |
+| `profile.json`, `path.json`, `misses.md`, `questions.md`, `cards.md`, `sessions.md` | Claude, directly. |
 | `progress.json` | `schedule.py` only. |
 | `page.html` | `build_page.py` only. |
 
