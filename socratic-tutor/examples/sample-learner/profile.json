@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "name": "Maya",
+  "age_range": "adult",
+  "session_minutes": 20,
+  "goals": ["Help my daughter with her fractions homework", "Stop guessing when I follow recipes"],
+  "background": "Works in an office. Comfortable with percentages, rusty on school maths.",
+  "explanation_notes": ["Pizza and baking examples work well", "Likes to draw a picture before any rule"]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "concepts": {
+    "what-is-a-fraction": {
+      "status": "solid",
+      "step": 3,
+      "streak": 3,
+      "misconception": false,
+      "retired": false,
+      "last_reviewed": "2026-11-02",
+      "next_due": "2026-11-18"
+    },
+    "equivalent-fractions": {
+      "status": "learning",
+      "step": 1,
+      "streak": 1,
+      "misconception": false,
+      "retired": false,
+      "last_reviewed": "2026-11-11",
+      "next_due": "2026-11-14"
+    },
+    "adding-fractions": {
+      "status": "learning",
+      "step": 0,
+      "streak": 0,
+      "misconception": true,
+      "retired": false,
+      "last_reviewed": "2026-11-13",
+      "next_due": "2026-11-14"
+    }
+  }
+}

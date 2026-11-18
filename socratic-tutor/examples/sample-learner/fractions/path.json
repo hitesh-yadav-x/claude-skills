@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "subject": "fractions",
+  "title": "Fractions from the ground up",
+  "kind": "general",
+  "goal": "Add, multiply and divide fractions and explain why each rule works",
+  "deadline": null,
+  "source": null,
+  "material_path": null,
+  "renamed_products": [],
+  "domains": [
+    {
+      "id": "basics",
+      "title": "What a fraction is",
+      "weight_percent": null,
+      "concepts": [
+        {"id": "what-is-a-fraction", "title": "What a fraction is", "summary": "A fraction names equal parts of a whole.", "doc_url": null, "retired": false},
+        {"id": "equivalent-fractions", "title": "Equivalent fractions", "summary": "Different fractions can name the same amount.", "doc_url": null, "retired": false},
+        {"id": "comparing-fractions", "title": "Comparing fractions", "summary": "Decide which of two fractions is larger.", "doc_url": null, "retired": false}
+      ]
+    },
+    {
+      "id": "operations",
+      "title": "Working with fractions",
+      "weight_percent": null,
+      "concepts": [
+        {"id": "adding-fractions", "title": "Adding fractions", "summary": "Add fractions by first giving them the same size parts.", "doc_url": null, "retired": false},
+        {"id": "multiplying-fractions", "title": "Multiplying fractions", "summary": "Take a fraction of a fraction.", "doc_url": null, "retired": false},
+        {"id": "dividing-fractions", "title": "Dividing fractions", "summary": "Ask how many of one fraction fit into another.", "doc_url": null, "retired": false}
+      ]
+    }
+  ]
+}
